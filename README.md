@@ -7,7 +7,7 @@ The project utilizes a pre-processed football dataset, **sourced from Roboflow**
 
 ## Project Structure
 
-- **`fine-tuning-yolov5.ipynb`**: Handles the detection of players in video frames using clustering techniques like **KMeans clustering** to identify and classify different objects on the field. It assigns the team colors and detects non-player clusters in the frames.
+- **`fine-tuning-yolov5.ipynb`**: Handles the detection of players in video frames using clustering techniques like **KMeans clustering** to identify and classify different objects on the field. It assigns the team colors and detects non-player clusters in the frames. The fine tuned model gives a .pt file which we use in the other notebook for player, referee and football detection on the pitch
   
 - **`Football_player_speed_and_distance_script.ipynb`**: Main processing pipeline. Processes each frame of the football match, assigns team colors, tracks ball possession, estimates camera movement, and calculates speed and distance covered by the players. This script uses the **Roboflow** dataset and a pre-trained model for object tracking, followed by post-processing to add detailed annotations to the final video output.
 
@@ -81,4 +81,6 @@ The final output video is saved as `enhanced_output.mp4`, which shows the enhanc
 - Ball possession tracking.
 - Speed and distance covered by players.
 - Camera movement estimation.
+- This is how the final results look like
+![image](https://github.com/user-attachments/assets/591c9829-070a-4661-b659-37d5461b11fc)
 
