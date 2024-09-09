@@ -81,6 +81,6 @@ The final output video is saved as `enhanced_output.mp4`, which shows the enhanc
 - Ball possession tracking.
 - Speed and distance covered by players.
 - Camera movement estimation.
-- This is how the final results look like
+- This is how the final result looks like
 ![image](https://github.com/user-attachments/assets/591c9829-070a-4661-b659-37d5461b11fc)
 
